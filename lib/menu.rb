@@ -8,7 +8,7 @@ def menu_parser(choice)
 	when '3'
 		experience
 	when '4'
-		skills
+    other_experience
 	when '5'
 		full_resume
 	when 'exit'
@@ -39,8 +39,8 @@ def menu_options
 	puts <<-EOD 
 	1. About David	
 	2. Education
-	3. Experience
-	4. Skills
+	3. Computer Experience
+	4. Other Experience
 	5. Full Resume
 	\n**type exit to leave**
 	EOD
